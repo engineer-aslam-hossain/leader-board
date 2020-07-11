@@ -107,3 +107,18 @@ hr {
   color: #ed6b4f;
   border-radius: 20px;
 }
+
+/* responsive */
+
+@media (max-width: 576px) {
+  .card-footer,
+  .blog-items {
+    flex-direction: column;
+  }
+  .navbar-nav {
+    align-items: flex-end;
+  }
+  .nav-item img {
+    margin-right: 15px;
+  }
+}
